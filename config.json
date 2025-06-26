@@ -1,0 +1,114 @@
+{
+    "PLEX_BASE_URL": "http://192.168.1.223:32400",
+    "PLEX_TOKEN": "xxxx",
+    "TITLE_BASICS_FILE": "title.basics.tsv",
+    "DEBUG": 0, 
+    "THETVDB_APIKEY": "xxx",
+    "IGNORE_LIST": [], 
+
+    "CSV_MOVIE_FIELDS": [
+    "title",
+    "imdb_id",
+    "themoviedb_id",
+    "imdb_rating",
+    "themoviedb_rating",
+    "bitrate",
+    "display_resolution",
+    "video_dimensions",
+    "languages",
+    "genres",
+    "file_path",
+    "file_directory",
+    "file_size"
+  ],
+    "CSV_EPISODE_FIELDS": [
+     "show_title",
+     "season_number",
+     "episode_number",
+     "episode_title",
+     "show_imdb_id",
+     "show_themoviedb_id",
+     "show_imdb_rating",
+     "show_themoviedb_rating",
+     "episode_imdb_id",
+     "episode_themoviedb_id",
+     "episode_imdb_rating",
+     "episode_themoviedb_rating",
+     "bitrate",
+     "display_resolution",
+     "video_dimensions",
+     "languages",
+     "show_genres",
+     "file_path",
+     "file_directory",
+     "file_size"
+   ],
+
+    "WORDS_TO_REMOVE_FROM_FILENAME": [
+      "576p",
+      "480p",
+      "720p",
+      "1080p",
+      "bluray",
+      "web-dl",
+      "x264",
+      "AC3",
+      "DTS",
+      "REMASTERED",
+      "2ch",
+      "3ch",
+      "4ch",
+      "6ch",
+      "BDRip",
+      "AVC",
+      "DDP5",
+      "MPEG",
+      "Unrated",
+      "ENG",
+      "DTS-HD",
+      "DD",
+      "Audio"
+    ],
+    "SIMILARITY_THRESHOLD_AUTO": 85,
+    "SIMILARITY_THRESHOLD_ASK": 75, 
+    "YEAR_MATCH_DIFFERENCE_AUTO": 1,
+
+  "directorios_fuente": [
+     "/pelis/",
+     "/pelis2"
+  ],
+
+  "extensiones_video": [
+    ".mkv",
+    ".mp4",
+    ".mpg",
+    ".ts",
+    ".ogg",
+    ".ogm",
+    ".webm",
+    ".ts",
+    ".m4v",
+    ".avi",
+    ".mpeg",
+    ".mov",
+    ".wmv"
+  ],
+  "archivos_a_eliminar_extensiones": [
+    ".url",
+    ".txt",
+    ".nfo",
+    ".jpg",
+    ".website",
+    ".png"
+  ],
+  "patrones_nombre": [
+    "imdb-tt[0-9]+",
+    "tmdb-[0-9]+"
+  ]
+
+
+
+
+
+}
+
