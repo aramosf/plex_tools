@@ -1,9 +1,9 @@
 {
     "PLEX_BASE_URL": "http://192.168.1.223:32400",
-    "PLEX_TOKEN": "xxxx",
+    "PLEX_TOKEN": "",
     "TITLE_BASICS_FILE": "title.basics.tsv",
     "DEBUG": 0, 
-    "THETVDB_APIKEY": "xxx",
+    "THETVDB_APIKEY": "",
     "IGNORE_LIST": [], 
 
     "CSV_MOVIE_FIELDS": [
@@ -74,8 +74,22 @@
     "YEAR_MATCH_DIFFERENCE_AUTO": 1,
 
   "directorios_fuente": [
-     "/pelis/",
-     "/pelis2"
+     "/volume1/volume1/docus2",
+     "/volume1/volume1/pelis_malas",
+     "/volume1/volume1/pelis_top",
+     "/volume1/volume1/pelis_sorted1",
+     "/volume1/volume1/docus",
+     "/volume2/volume2/pelis_sorted2",
+     "/volume2/volume2/pelis_unsorted2",
+     "/volume3/volume3/pelis_sorted3",
+     "/volume4/volume4/pelis_sorted4",
+     "/volume4/volume4/pelis_unsorted4",
+     "/volume5/volume5/pelis_sorted5",
+     "/volume5/volume5/pelis_unsorted5",
+     "/volume6/volume6/pelis_sorted6",
+     "/volume7/volume7/pelis_unsorted7",
+     "/volume8/volume8/pelis_craptofix",
+     "/volume8/volume8/pelis_unsorted8"
   ],
 
   "extensiones_video": [
